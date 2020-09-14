@@ -1,9 +1,10 @@
-import { Router, Response } from 'express';
+import { Router } from 'express';
+import FactorialController from './controllers/Factorial';
 
 const route = Router();
 
-route.get('/hello', (_, response: Response) => {
-    return response.json({ hello: "world" });
-});
+const factorialController = new FactorialController();
+
+route.get('/factorial', factorialController.compute);
 
 export default route;
