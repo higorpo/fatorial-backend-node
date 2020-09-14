@@ -19,7 +19,7 @@
 <a id="tecnologias"></a>
 ## :rocket: Tecnologias
 <p>
-Para o frontend desta aplicação utilizou-se das seguintes tecnologias:
+Para o backend desta aplicação utilizou-se das seguintes tecnologias:
 </p>
 
 - TypeScript
