@@ -26,6 +26,7 @@ Para o backend desta aplicação utilizou-se das seguintes tecnologias:
 - Express
 - Express Validator
 - ESLint
+- Jest (testes)
 
 <a id="resultados"></a>
 ## :heavy_check_mark: Resultados
