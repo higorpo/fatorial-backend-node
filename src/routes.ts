@@ -11,7 +11,7 @@ route.get('/factorial', [
     query('number')
         .isNumeric()
         .withMessage('Você precisa fornecer um número')
-        .toInt()
+        .toInt(),
 ], factorialController.compute);
 
 export default route;
